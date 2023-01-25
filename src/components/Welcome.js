@@ -1,11 +1,13 @@
 import styled from "styled-components";
 import Logo from "../pictures/the-simpson.png";
 
-export default function WelcomeText() {
+export default function WelcomeText(props) {
+  const { reqApi } = props;
+
   return (
     <>
       <ContentLogo>
-        <ImageLogo src={Logo} alt="logo simpsons" />
+        <ImageLogo src={Logo} alt="logo simpsons" onClick={reqApi} />
       </ContentLogo>
       <SubTitle>Pulsa en la imagen para ver las mejores frases de los Simpsons</SubTitle>
     </>
