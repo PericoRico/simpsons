@@ -23,7 +23,7 @@ function App() {
       {!characters ? (
         <Welcome reqApi={reqApi} />
       ) : (
-        <CharacterContainer characters={characters}></CharacterContainer>
+        <CharacterContainer characters={characters} reqApi={reqApi}></CharacterContainer>
       )}
 
     </Container>
