@@ -23,6 +23,7 @@ export default function CharacterContainer(props) {
 
 const DivCharacter = styled.div`
     display: flex;
+    justify-content: center;
 `;
 
 const DivButton = styled.div`
