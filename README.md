@@ -1,3 +1,3 @@
 # Netlify
 
-simpsons-peri.netlify.app
+https://simpsons-peri.netlify.app
